@@ -1,16 +1,91 @@
-header{
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-body{
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(p12.webp) ;
+}
+
+.header {
+    background-image:url(pic123.jpg) ;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header h1 {
+    margin-bottom: 1rem;
+}
+
+.main {
+    flex: 1;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
    
-    background: lightblue url(istockphoto-1058727850-612x612.jpg) no-repeat center / cover fixed;
+    
 }
-p{
-    border:2px solid white;
-    padding: 20px;
-    margin-top: 50px;
-    background-color: bisque;
- }
+
+
+.container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 2rem;
+   
+} 
+.CEDRICK{
+    background-color: white;
+}
+.BARBIE{
+    background-color: white;
+
+}
+.ROCHE{
+    background-color: white;
+}
+
+.container:hover {
+    transform: translateY(-50px);
+   
+}
+
+
+.container h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.container p {
+    color: #666;
+    margin-bottom: 1.5rem;
+    
+}
+
+
+.footer {
+    background-image:url(pic123.jpg) ;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
 
 
 
+button {
+    background-image:url(ins.avif) ;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    
+}
+   .button1{
+    background-image:url(ins.avif) ;
+   }
